@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { removeItemFromCart, clearCart, increaseItemQuantity, decreaseItemQuantity } from './CartSlice'; 
-import './ShoppingCart.css';
+import '../css/ShoppingCart.css';
 
 const ShoppingCart = () => {
 

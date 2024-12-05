@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addItemToCart } from './CartSlice';
-import './ProductList.css'; // Import CSS file for component-specific styles
+import '../css/ProductList.css'; // Import CSS file for component-specific styles
 
 const ProductList = () => {
 
